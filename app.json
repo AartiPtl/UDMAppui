@@ -19,10 +19,19 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.art_exp.UDMApp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "11887c81-0cce-4665-a048-d393761f790a"
+      }
+    },
+    "plugins": [
+      "expo-video"
+    ]
   }
 }
